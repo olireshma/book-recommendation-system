@@ -1,0 +1,97 @@
+<% layout('layouts/boilerplate')%>
+<!-- <h1>Register</h1>
+<form action="/register" method="POST" class="validated-form" novalidate>
+    <div class="mb-3">
+        <label class="form-label" for="username">Username</label>
+        <input class="form-control" type="text" id="username" name="username" required>
+        <div class="valid-feedback">
+            Looks good!
+        </div>
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="email">Email</label>
+        <input class="form-control" type="email" id="email" name="email" required>
+        <div class="valid-feedback">
+            Looks good!
+        </div>
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="password">Password</label>
+        <input class="form-control" type="password" id="password" name="password" required>
+        <div class="valid-feedback">
+            Looks good!
+        </div>
+    </div>
+    <button class="btn btn-success">Register</button>
+</form> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="Stylesheets/Registration.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Responsive Regisration Form </title> 
+</head>
+<body>
+    <div class="container">
+        <header>Registration</header>
+
+        <form action="/register" method="post" class="validated-form" novalidate>
+            <div class="form first">
+                <div class="details personal">
+                
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label for="username">User Name</label>
+                            <input type="text" placeholder="Enter your name" id="username" name="username" required>
+                             <div class="valid-feedback">
+            Looks good!
+        </div>
+                        </div>
+
+    
+
+                        <div class="input-field">
+                            <label for="email">Email</label>
+                            <input placeholder="Enter your email" type="email" id="email" name="email" required>
+                             <div class="valid-feedback">
+            Looks good!
+        </div>
+                        </div>
+
+
+                        <div class="input-field">
+                            <label>Password</label>
+                            <input type="password" placeholder="Enter Password"  id="password" name="password" s required>
+                             <div class="valid-feedback">
+            Looks good!
+        </div>
+                        </div>
+
+                    </div>
+                </div>
+                    <div class="buttons">
+                        
+                        
+                        <button class="sumbit">
+                            <span class="btnText">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div> 
+            </div>
+        </form>
+    </div>
+
+    <script src="javascripts/script.js"></script>
+</body>
+</html>
